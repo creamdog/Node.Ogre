@@ -1,0 +1,39 @@
+material textures
+{
+	technique
+	{
+		pass
+		{
+			//lighting off
+			//scene_blend alpha_blend
+			//depth_write off
+			//diffuse vertexcolour
+			
+			ambient 0.7 0.7 0.9 1.0
+            //diffuse 1.0 1.0 1.0 1.0
+            //specular 1.0 1.0 1.0 1.0
+
+            //scene_blend src_colour dest_colour
+
+            //depth_write off
+
+            //depth_check on
+            //depth_write off
+            //lighting on
+
+            //depth_func less
+
+            //transparent_sorting on
+
+            //cull_software back
+
+			texture_unit
+			{
+				texture textures.jpg
+				tex_coord_set 0
+				//tex_address_mode clamp
+				//scroll_anim 0.1 0.0
+			}
+		}
+	}
+}

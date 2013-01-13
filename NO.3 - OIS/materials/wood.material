@@ -1,0 +1,18 @@
+material wood
+{
+	technique
+	{
+		pass
+		{
+			depth_check on
+			//shininess 10.5
+			//specularity 1 1 1 5
+			lighting on
+			texture_unit
+			{
+				texture minecraft_tree_wood.jpg
+				tex_coord_set 0
+			}
+		}
+	}
+}

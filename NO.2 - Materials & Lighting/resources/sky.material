@@ -1,0 +1,17 @@
+material sky
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5 1.0
+            diffuse 0.0 0.0 0.0 0.0
+            specular 0 0 0 0
+            lighting off
+			texture_unit
+			{
+			  colour_op_ex source1 src_manual src_current 0.25 0.0 0.15
+			}
+		}
+	}
+}
